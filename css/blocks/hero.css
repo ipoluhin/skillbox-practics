@@ -1,0 +1,9 @@
+.hero__wrapper {
+	max-width: 1240px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+	padding: 0 0 22px;
+	gap: 0 127px;
+	justify-content: center;
+}
