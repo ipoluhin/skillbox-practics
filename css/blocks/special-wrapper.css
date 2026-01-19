@@ -1,0 +1,40 @@
+.special__wrapper {
+  margin: 0 0 100px;
+  padding: 0 80px;
+}
+
+.offers-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.offers-list__item {
+  grid-column: span 1;
+  grid-row: span 1;
+  min-height: 280px;
+}
+
+.offers-list__item--height-xl {
+  max-width: 280px;
+  grid-column: 3 / 4;
+  grid-row: span 2;
+  align-items: stretch;
+}
+
+.offers-list__item--width-xl {
+  grid-column: span 2;
+  grid-row: 2 / 3;
+}
+
+.special-heading {
+  margin: 0 0 40px;
+  padding: 0;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
