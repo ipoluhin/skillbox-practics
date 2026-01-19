@@ -1,1 +1,1 @@
-# skillbox-practics
+# Практические задания по курсу Верстки. SkillBox
