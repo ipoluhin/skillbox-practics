@@ -1,0 +1,18 @@
+.advantages {
+  margin: 0 0 100px;
+}
+
+.advantages__main-list {
+  display: grid;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 99px 80px 0;
+  gap: 60px;
+}

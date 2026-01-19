@@ -1,0 +1,42 @@
+.header {
+  padding: 16px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo-link {
+  display: flex;
+  padding: 0;
+}
+
+.header__buttons-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__info-shift-button {
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid #DBDFEC;
+  margin: 0;
+  padding: 4px 6px;
+}
+
+.header__btn-to-clients,
+.header__btn-to-partners {
+  padding: 14px 24px;
+}
+
+.header__lang-shift-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 12px;
+  border: 1px solid #DBDFEC;
+  background: #FFFFFF;
+  padding: 16px 23px;
+}

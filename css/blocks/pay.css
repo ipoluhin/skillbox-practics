@@ -1,0 +1,58 @@
+.pay__wrapper {
+	margin: 0 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 40px;
+}
+
+.pay__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: space-between;
+	gap: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+.pay__heading {
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 36px;
+	color: #1E222E;
+}
+
+.pay__item-heading {
+	width: 280px;
+}
+
+.pay__item-img {
+	padding: 26px;
+	color: #FFFFFF;
+	border-radius: 50%;
+	width: 72px;
+	height: 72px;
+}
+
+.pay__item-img--1 {
+	background: url(../../images/pay/intersect1.png) bottom right / 62px 31px no-repeat, #4C5269;
+}
+
+.pay__item-img--2 {
+	background: url(../../images/pay/intersect2.png) bottom right / 71px 41px no-repeat, #4C5269;
+}
+
+.pay__item-img--3 {
+	background: url(../../images/pay/intersect3.png) bottom right / 72px 60px no-repeat, #4C5269;
+}
+
+.pay__item-img--4 {
+	background: url(../../images/pay/intersect4.png) bottom right / 72px 72px no-repeat, #4C5269;
+}
+
+.pay__item-text-block {
+	text-align: center;
+}
