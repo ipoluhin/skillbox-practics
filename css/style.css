@@ -7,6 +7,7 @@
 
 /* Blocks */
 /* ------------------------------------ */
+@import "./blocks/construction__wrapper.css";
+@import "./blocks/hero.css";
 @import "./blocks/header.css";
 @import "./blocks/galery.css";
-@import "./blocks/construction__wrapper.css";
