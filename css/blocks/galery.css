@@ -1,0 +1,7 @@
+.galery-list {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	list-style-type: none;
+}
