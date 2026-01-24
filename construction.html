@@ -14,7 +14,9 @@
     <div class="container">
       <div class="header__wrapper">
         <a class="header__logo-link" href="#" aria-label="Логотип компании Лаврушенский">
-          <img class="header__logo-image" src="images/logo-lavrushinsky.svg" width="82" height="44" alt="Логотип компании Лаврушинский">
+          <svg xmlns="http://www.w3.org/2000/svg" width="82" height="44" fill="none">
+            <path fill="#B68E6C" d="M54.34 30.163 43.38 0l-4.236.277-12.065 30.532c-2.302 5.811-4.236 10.147-5.526 13.099h3.592c1.197-3.69 2.763-7.933 4.605-12.638l2.855-7.287.92-2.398 6.447-16.88 5.895 16.88.828 2.398 2.21 6.273c2.21 6.549 3.684 11.161 4.33 13.744h6.722c-1.197-2.214-3.04-6.734-5.618-13.837Zm.92-13.928s12.986-3.69 19.616-3.69c6.631 0 7.092 3.69 7.092 3.69s.92-5.535-7.092-5.535-19.616 5.535-19.616 5.535ZM7.002 32.839c-6.538 0-6.999-3.69-6.999-3.69s-.368 5.166 7 5.166c7.09 0 15.84-4.151 15.84-4.151s-9.302 2.675-15.84 2.675Z" />
+          </svg>
         </a>
         <button class="header__burger" type="button" aria-label="Открыть меню">
           <svg class="header__burger-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="10" fill="none">
@@ -27,65 +29,90 @@
   </header>
   <main class="main">
     <!-- Ход строительства -->
-    <div class="container">
-      <div class="construction__wrapper">
-        <h1 class="visually-hidden">Отчет за процессу строительства за месяц</h1>
-        <section class="hero">
-          <ul class="galery-list">
-            <li class="galery-item galery-item--1">
-              <img src="images/image-construction-progress-1.jpg" width="380" height="220" alt="Каркас третьего этажа здания">
+    <section class="hero">
+      <div class="container">
+        <div class="construction__wrapper">
+          <h1 class="visually-hidden">Описание хода строительства ЖК Лаврушенский</h1>
+          <ul class="list galery__list">
+            <li class="galery__item galery__item--1">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-1.jpg" width="380" height="220" alt="Каркас третьего этажа здания">
             </li>
-            <li class="galery-item galery-item--2">
-              <img src="images/image-construction-progress-2.jpg" width="350" height="220" alt="Рабочие монтируют металлические конструкции на одном из этажей строящегося здания">
+            <li class="galery__item galery__item--2">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-2.jpg" width="350" height="220" alt="Рабочие монтируют металлические конструкции на одном из этажей строящегося здания">
             </li>
-            <li class="galery-item">
-              <img src="images/image-construction-progress-3.jpg" width="160" height="200" alt="Этаж здания с проложенными металлическими конструкциями под вытяжку и провода">
+            <li class="galery__item">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-3.jpg" width="160" height="200" alt="Этаж здания с проложенными металлическими конструкциями под вытяжку и провода">
             </li>
-            <li class="galery-item galery-item--3">
-              <img src="images/image-construction-progress-4.jpg" width="190" height="390" alt="Вид на Кремль со смотровой площадки">
+            <li class="galery__item galery__item--3">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-4.jpg" width="190" height="390" alt="Вид на Кремль со смотровой площадки">
             </li>
-            <li class="galery-item">
-              <img src="images/image-construction-progress-5.jpg" width="160" height="200" alt="Столб с указателями">
+            <li class="galery__item">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-5.jpg" width="160" height="200" alt="Столб с указателями">
             </li>
-            <li class="galery-item">
-              <img src="images/image-construction-progress-6.jpg" width="160" height="200" alt="Рабочий сваривает одну металлическую конструкцию с другой">
+            <li class="galery__item">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-6.jpg" width="160" height="200" alt="Рабочий сваривает одну металлическую конструкцию с другой">
             </li>
-            <li class="galery-item">
-              <img src="images/image-construction-progress-7.jpg" width="160" height="160" alt="Ограждение с логотипом Сминекс Констракшн">
+            <li class="galery__item">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-7.jpg" width="160" height="160" alt="Ограждение с логотипом Сминекс Констракшн">
             </li>
-            <li class="galery-item galery-item--4">
-              <img src="images/image-construction-progress-8.jpg" width="350" height="160" alt="Рабочие укладывают трубы для подвального помещения">
-            </li>
-          </ul>
-          <ul>
-            <li>
-              Завершили устройство дренажной плиты стилобата&nbsp;&mdash; здесь создадим всесезонный
-              двор-парк с&nbsp;водными зонами.
-            </li>
-            <li>
-              Выполнили монтаж направляющих для лифтового оборудования во&nbsp;всех корпусах, собрали
-              кабины лифтов на&nbsp;20%.
-            </li>
-            <li>
-              Завершили устройство полов в&nbsp;лифтовых холлах этажей Центрального корпуса
-              на&nbsp;100%,
-              в&nbsp;Восточном корпусе выполнили работы на&nbsp;50%.
-            </li>
-            <li>
-              Продолжаем монтаж систем комфорта: готовность систем вентиляции&nbsp;&mdash; 45%,
-              отопления&nbsp;&mdash; 25%, водоснабжения&nbsp;&mdash; 15%, электромонтажных
-              и&nbsp;слаботочных систем&nbsp;&mdash; 10%.
-            </li>
-            <li>
-              Приступили к&nbsp;монтажу шумозащитных экранов на&nbsp;кровле Западного корпуса.
-            </li>
-            <li>
-              Продолжаем монтировать фасады и&nbsp;окна.
+            <li class="galery__item galery__item--4">
+              <img class="galery__item-img" src="images/galery/image-construction-progress-8.jpg" width="350" height="160" alt="Рабочие укладывают трубы для подвального помещения">
             </li>
           </ul>
-        </section>
+          <div class="description__block">
+            <div class="description__text-block">
+              <a href="#" class="description__top-back-link" aria-label="Ссылка на предыдущую страницу">
+                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.10661 7.5L5.88727 11.4255L5.33397 12L1.00001 7.5L5.33397 3L5.88727 3.5745L2.10661 7.5Z" fill="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9996 7.90625L1.55314 7.90625L1.55314 7.09379L18.9996 7.09379L18.9996 7.90625Z" fill="white" />
+                </svg>
+                <span class="description__top-back-link-text">Назад</span>
+              </a>
+              <span class="description__reporting-month">декабрь</span>
+              <ul class="description__list">
+                <li class="description__item">
+                  Завершили устройство дренажной плиты стилобата&nbsp;&mdash; здесь создадим всесезонный двор-парк с&nbsp;водными зонами.
+                </li>
+                <li class="description__item">
+                  Выполнили монтаж направляющих для лифтового оборудования во&nbsp;всех корпусах, собрали кабины лифтов на&nbsp;20%.м
+                </li>
+                <li class="description__item">
+                  Завершили устройство полов в&nbsp;лифтовых холлах этажей Центрального корпуса на&nbsp;100%, в&nbsp;Восточном корпусе выполнили работы на&nbsp;50%.
+                </li>
+                <li class="description__item">
+                  Продолжаем монтаж систем комфорта: готовность систем вентиляции&nbsp;&mdash; 45%, отопления&nbsp;&mdash; 25%, водоснабжения&nbsp;&mdash; 15%, электромонтажных и&nbsp;слаботочных систем&nbsp;&mdash; 10%.
+                </li>
+                <li class="description__item">
+                  Приступили к&nbsp;монтажу шумозащитных экранов на&nbsp;кровле Западного корпуса.
+                </li>
+              </ul>
+            </div>
+            <div class="description__nav-block">
+              <a href="#" class="description__link description__link--previous">
+                <div class="description__block-btn">
+                  <span class="description__link-text description__link-text--previous">Предыдущий<br>месяц</span>
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8959 19.5625L16.2985 22.9973L15.8006 23.5L11.9 19.5625L15.8006 15.625L16.2985 16.1277L12.8959 19.5625Z" fill="#B68E6C" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.0996 19.918L12.3978 19.918L12.3978 19.2071L28.0996 19.2071L28.0996 19.918Z" fill="#B68E6C" />
+                    <circle cx="20" cy="20" r="19.5" stroke="#B68E6C" />
+                  </svg>
+                </div>
+              </a>
+              <a href="#" class="description__link description__link--next">
+                <div class="description__block-btn">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M27.1041 20.4375L23.7015 17.0027L24.1994 16.5L28.1 20.4375L24.1994 24.375L23.7015 23.8723L27.1041 20.4375Z" fill="#B68E6C" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9004 20.082L27.6022 20.082L27.6022 20.7929L11.9004 20.7929L11.9004 20.082Z" fill="#B68E6C" />
+                    <circle cx="20" cy="20" r="19.5" stroke="#B68E6C" />
+                  </svg>
+                  <span class="description__link-text description__link-text--next">Следующий месяц</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </main>
 </body>
 
