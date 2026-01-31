@@ -1,0 +1,64 @@
+.content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.content__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	margin: 0;
+	padding: 120px 0 120px 60px;
+}
+
+.content__inner-text-block {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 110px auto;
+	grid-template-rows: repeat(3, auto);
+	gap: 32px;
+	width: 540px;
+}
+
+.content__heading {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 70px;
+	text-transform: uppercase;
+	grid-column: span 2;
+	grid-row: span 1;
+}
+
+.content__down-payment-img {
+	grid-column: span 1;
+	grid-row: 2 / 3;
+}
+
+.content__offer-list {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.content__offer-item {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: "Foros", "Arial", sans-serif;
+}
+
+.content__btn-block {
+	grid-column: span 2;
+}
+
+.content__submit-btn {
+	background-color: #23252E;
+	border: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}

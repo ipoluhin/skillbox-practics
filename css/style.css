@@ -1,6 +1,6 @@
 /* Global */
 /* ------------------------------------ */
-@import "./global/.container";
+@import "./global/container.css";
 @import "./global/fonts.css";
 @import "./global/reboot.css";
 @import "./global/visually-hidden.css";
@@ -9,3 +9,6 @@
 /* ------------------------------------ */
 @import "./blocks/header.css";
 @import "./blocks/btn.css";
+@import "./blocks/wrapper.css";
+@import "./blocks/content.css";
+@import "./blocks/footer.css";
