@@ -1,3 +1,12 @@
+.hero {
+	width: 1440px;
+}
+
+.content__wrapper {
+	min-width: 100%;
+
+}
+
 .content {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -6,7 +15,7 @@
 .content__inner {
 	display: flex;
 	flex-direction: column;
-	gap: 60px;
+	gap: 35px;
 	margin: 0;
 	padding: 120px 0 120px 60px;
 }
@@ -38,6 +47,9 @@
 }
 
 .content__offer-list {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
 	margin: 0;
@@ -48,7 +60,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 18px;
-	font-family: "Foros", "Arial", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 }
 
 .content__btn-block {
