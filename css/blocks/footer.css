@@ -1,6 +1,7 @@
 .footer {
 	background-color: #23252E;
 	width: 1440px;
+	margin: 0 auto;
 }
 
 .footer__wrapper {
