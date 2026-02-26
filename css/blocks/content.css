@@ -1,6 +1,6 @@
 .hero {
 	width: 1440px;
-	min-height: 100vh - 80px;
+	min-height: calc(100vh - 75px);
 	margin: 0 auto;
 }
 
