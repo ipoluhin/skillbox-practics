@@ -6,11 +6,38 @@
 	justify-content: space-between;
 }
 
+.header__left-block {
+	display: flex;
+	justify-content: start;
+	gap: 142px;
+	align-items: center;
+}
+
 .header__description-link {
 	text-transform: uppercase;
+	font-weight: 400px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.header__right-block {
+	display: flex;
+	justify-content: end;
+	gap: 40px;
+	align-items: center;
 }
 
 .header__btns-block {
 	display: flex;
 	gap: 20px;
+	align-items: center;
+}
+
+.header__select-apartment-btn {
+	border: 2px solid #fff;
+	border-radius: 60px;
+	padding: 12px 20px;
+	font-weight: 400px;
+	font-size: 13px;
+	line-height: 16px;
 }
