@@ -1,6 +1,6 @@
 .hero {
-  /* min-height: calc(100vh - 120px); */
   margin-bottom: 80px;
+  min-height: calc(100vh - 120px);
 }
 
 .hero__wrapper {
@@ -11,6 +11,7 @@
   align-items: center;
   padding: 48px 0 0;
   gap: 48px;
+  /* background: linear-gradient(180deg, rgba(42, 82, 163, 0) 0%, rgba(42, 82, 163, 0.6) 46.28%, #2A52A3 89%); */
 }
 
 .hero__heading {
