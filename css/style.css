@@ -9,8 +9,11 @@
 /* ------------------------------------ */
 @import "./blocks/header.css";
 @import "./blocks/hero.css";
-@import "./blocks/apartments.css";
+@import "./blocks/silence.css";
 @import "./blocks/benefit.css";
 @import "./blocks/footer.css";
 @import "./blocks/socials.css";
 @import "./blocks/charm.css";
+@import "./blocks/apartments.css";
+@import "./blocks/silence.css";
+@import "./blocks/advantages.css";

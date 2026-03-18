@@ -1,8 +1,8 @@
-.apartments {
+.apartment {
   margin: 0 0 80px;
 }
 
-.apartments__wrapper {
+.apartment__wrapper {
   display: grid;
   grid-template-columns: 420px 360px;
   align-items: center;
@@ -10,27 +10,27 @@
   column-gap: 220px;
 }
 
-.apartments__icon {
+.apartment_content-icon {
   display: flex;
 }
 
-.apartments__icon,
-.apartments__description {
+.apartment__content-icon,
+.apartment__description {
   margin: 0 0 32px;
 }
 
-.apartments__description {
+.apartment__description {
   font-size: 18px;
   line-height: 24px;
 }
 
-.apartments__text {
+.apartment__text {
   margin: 0 0 16px;
   line-height: 22px;
   font-weight: 300;
 }
 
-.apartments__list {
+.apartment__list {
   display: flex;
   flex-direction: column;
   row-gap: 4px;
@@ -38,7 +38,7 @@
   padding: 0 0 0 16px;
 }
 
-.apartments__list-item {
+.apartment__list-item {
   line-height: 22px;
   font-weight: 300;
 }

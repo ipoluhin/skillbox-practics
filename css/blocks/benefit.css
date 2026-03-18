@@ -10,7 +10,17 @@
 }
 
 .benefit--apartment {
-  background-image: url("../../images/image-apartment.jpg");
+  background-image: url("../../images/apartments/apartment.png");
+}
+
+.benefit--silence {
+  border-radius: 180px 180px 0 0;
+  background-image: url("../../images/silence/silence.png");
+}
+
+.benefit--advantages {
+  border-radius: 180px 180px 0 0;
+  background-image: url("../../images/advantages/advantages.png");
 }
 
 .benefit__number {
@@ -25,8 +35,4 @@
   font-size: 22px;
   line-height: 24px;
   text-transform: uppercase;
-}
-
-.benefit--apartment {
-  background-image: url("../../images/apartments/apartment.png");
 }

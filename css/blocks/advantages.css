@@ -1,0 +1,28 @@
+.advantages {
+	margin: 0 0 80px;
+}
+
+.advantages__wrapper {
+	display: grid;
+	grid-template-columns: 420px 360px;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 220px;
+}
+
+.advantages__content-icon {
+	margin: 0 0 32px;
+}
+
+.advantages__list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+	margin: 0;
+	padding: 0 0 0 16px;
+}
+
+.advantages__list-item {
+	line-height: 22px;
+	font-weight: 300;
+}
